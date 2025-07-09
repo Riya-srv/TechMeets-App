@@ -10,7 +10,14 @@ const Events = ({ searchEvent }) => {
   );
 
   //console.log(data);
-
+    if (loading) {
+    return (
+      <>
+        <div className="container"><p>Loading...</p></div>
+            
+      </>
+    );
+  }
   
 
 
